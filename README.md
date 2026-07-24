@@ -1,10 +1,5 @@
-# zekangl317-cyber.github.io
+# 刘泽康个人主页
 
-Bilingual portfolio site for Zekang Liu. The site is dependency-free static HTML, CSS, and JavaScript and is published through GitHub Pages.
+刘泽康的中英文个人主页，包含毕业院校、个人简介和项目列表。
 
-- Chinese and English language switch
-- Responsive, keyboard-accessible layout
-- Eight-project assured-autonomy portfolio
-- No tracking, external fonts, or third-party runtime scripts
-
-Open index.html locally for a source preview.
+[访问主页](https://zekangl317-cyber.github.io/)

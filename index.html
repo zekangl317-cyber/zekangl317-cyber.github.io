@@ -3,24 +3,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="刘泽康的机器人、车辆软件与可信自主系统工程作品集。">
-  <meta name="theme-color" content="#08111d">
-  <meta property="og:title" content="刘泽康 · 可信自主系统工程">
-  <meta property="og:description" content="机器人、车辆软件、安全与系统工程作品集">
+  <meta name="description" content="刘泽康的个人主页与项目作品集。">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta property="og:title" content="刘泽康 · 个人主页">
+  <meta property="og:description" content="合肥工业大学电子信息专业毕业生，项目方向涵盖机器人、车辆软件与系统安全。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://zekangl317-cyber.github.io/">
-  <title>刘泽康 · 可信自主系统工程</title>
+  <title>刘泽康 · 个人主页</title>
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
-<body data-title-zh="刘泽康 · 可信自主系统工程" data-title-en="Zekang Liu · Assured Autonomy Engineering">
+<body data-title-zh="刘泽康 · 个人主页" data-title-en="Zekang Liu · Portfolio">
   <a class="skip-link" href="#main"><span class="lang-zh">跳到正文</span><span class="lang-en">Skip to content</span></a>
   <header class="site-header">
     <nav class="nav shell" aria-label="Primary navigation">
-      <a class="brand" href="#top">ZEKANG / 刘泽康</a>
+      <a class="brand" href="#top"><span class="lang-zh">刘泽康</span><span class="lang-en">Zekang Liu</span></a>
       <div class="nav-links">
         <a href="#projects"><span class="lang-zh">项目</span><span class="lang-en">Projects</span></a>
-        <a href="#profile"><span class="lang-zh">经历</span><span class="lang-en">Profile</span></a>
         <a href="https://github.com/zekangl317-cyber">GitHub</a>
         <div class="language" aria-label="Language">
           <button type="button" data-lang="zh" aria-pressed="true">中文</button>
@@ -31,45 +30,22 @@
   </header>
 
   <main id="main">
-    <div id="top" class="hero shell">
-      <div>
-        <p class="eyebrow"><span class="lang-zh">机器人 · 车辆软件 · 系统安全</span><span class="lang-en">Robotics · Vehicle Software · Systems Security</span></p>
-        <h1><span class="lang-zh">让自主系统的每个动作都有依据。</span><span class="lang-en">Every autonomous action should earn its authority.</span></h1>
-        <p class="hero-copy lang-zh">合肥工业大学电子信息专业本科生（2022—2026）。关注机器人与车辆软件中的授权、更新安全、可复现实验和系统级故障边界。</p>
-        <p class="hero-copy lang-en">Electronic Information Engineering student at Hefei University of Technology (2022–2026), focused on authorization, update assurance, reproducible evaluation, and system-level failure boundaries in robotics and vehicle software.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="#projects"><span class="lang-zh">查看项目</span><span class="lang-en">Explore projects</span></a>
-          <a class="button" href="https://github.com/zekangl317-cyber"><span class="lang-zh">访问 GitHub</span><span class="lang-en">Open GitHub</span></a>
-        </div>
-      </div>
-      <aside class="hero-panel" aria-label="Portfolio summary">
-        <div class="metric"><strong>08</strong><span><span class="lang-zh">个独立工程仓库</span><span class="lang-en">independent engineering repositories</span></span></div>
-        <div class="metric"><strong>04</strong><span><span class="lang-zh">个主导项目</span><span class="lang-en">lead-maintained projects</span></span></div>
-        <div class="metric"><strong>01</strong><span><span class="lang-zh">条端到端可信自主系统主线</span><span class="lang-en">end-to-end assured-autonomy story</span></span></div>
-      </aside>
-    </div>
-
-    <section class="shell" aria-labelledby="story-title">
-      <div class="section-head">
-        <h2 id="story-title"><span class="lang-zh">从命令到执行器</span><span class="lang-en">From command to actuator</span></h2>
-        <p class="lang-zh">八个仓库彼此独立，但通过清晰的接口故事串联：先确认权限与软件版本，再验证时序、轨迹和运行时行为，最后保留可复现证据。</p>
-        <p class="lang-en">Eight independent repositories form one interface-level story: establish authority and software integrity, then verify timing, trajectory, runtime behavior, and reproducible evidence.</p>
-      </div>
-      <div class="story">
-        <article class="story-step"><span class="step-no">01</span><h3><span class="lang-zh">授权</span><span class="lang-en">Authorize</span></h3><p><span class="lang-zh">最小权限与效果可达性</span><span class="lang-en">Least privilege and effect reachability</span></p></article>
-        <article class="story-step"><span class="step-no">02</span><h3><span class="lang-zh">核验</span><span class="lang-en">Verify</span></h3><p><span class="lang-zh">小型独立证书检查</span><span class="lang-en">Small independent certificate checks</span></p></article>
-        <article class="story-step"><span class="step-no">03</span><h3><span class="lang-zh">更新</span><span class="lang-en">Update</span></h3><p><span class="lang-zh">OTA 证据与权限漂移</span><span class="lang-en">OTA evidence and authority drift</span></p></article>
-        <article class="story-step"><span class="step-no">04</span><h3><span class="lang-zh">规划</span><span class="lang-en">Plan</span></h3><p><span class="lang-zh">碰撞、曲率与时序约束</span><span class="lang-en">Collision, curvature, and timing</span></p></article>
-        <article class="story-step"><span class="step-no">05</span><h3><span class="lang-zh">仿真</span><span class="lang-en">Simulate</span></h3><p><span class="lang-zh">确定性故障与血缘</span><span class="lang-en">Deterministic faults and lineage</span></p></article>
-        <article class="story-step"><span class="step-no">06</span><h3><span class="lang-zh">执行</span><span class="lang-en">Execute</span></h3><p><span class="lang-zh">截止期、新鲜度与诊断</span><span class="lang-en">Deadlines, freshness, diagnosis</span></p></article>
+    <section id="top" class="intro shell">
+      <h1><span class="lang-zh">刘泽康</span><span class="lang-en">Zekang Liu</span></h1>
+      <p class="school lang-zh">本科毕业于合肥工业大学 · 电子信息专业 · 2022—2026</p>
+      <p class="school lang-en">B.Eng., Hefei University of Technology · Electronic Information Engineering · 2022–2026</p>
+      <div class="bio">
+        <h2><span class="lang-zh">简介</span><span class="lang-en">About</span></h2>
+        <p class="lang-zh">关注机器人与车辆软件安全、可信更新、确定性测试和运行时保障。通过可独立构建和验证的工程项目，积累安全分析、系统开发与实验评估经验。</p>
+        <p class="lang-en">Interested in robotics and vehicle software security, assured updates, deterministic testing, and runtime assurance. My projects develop practical experience in security analysis, systems engineering, and reproducible evaluation.</p>
       </div>
     </section>
 
     <section id="projects" class="shell" aria-labelledby="projects-title">
       <div class="section-head">
-        <h2 id="projects-title"><span class="lang-zh">工程项目</span><span class="lang-en">Engineering work</span></h2>
-        <p class="lang-zh">每个仓库都有独立构建、测试、文档、失败边界和可执行示例。Lead 表示主要维护责任，Contributor 表示跨域集成与审查贡献。</p>
-        <p class="lang-en">Each repository has independent builds, tests, documentation, failure boundaries, and executable examples. Lead denotes primary maintenance; Contributor denotes cross-domain integration and review work.</p>
+        <h2 id="projects-title"><span class="lang-zh">项目</span><span class="lang-en">Projects</span></h2>
+        <p class="lang-zh">4 个主导项目与 4 个协作项目。</p>
+        <p class="lang-en">Four lead projects and four collaboration projects.</p>
       </div>
       <div class="projects">
         <a class="project" href="https://github.com/zekangl317-cyber/autonomy-authz"><div class="project-top"><span class="role">Lead</span><span class="stack">Python · Security</span></div><h3>autonomy-authz</h3><p><span class="lang-zh">面向机器人与车辆服务图的最小权限分析、合成、语义差分和证书生成。</span><span class="lang-en">Least-authority analysis, synthesis, semantic diff, repair, and certificates for robot and vehicle service graphs.</span></p><span class="arrow">GitHub →</span></a>
@@ -83,23 +59,7 @@
       </div>
     </section>
 
-    <section id="profile" class="shell" aria-labelledby="profile-title">
-      <div class="section-head"><h2 id="profile-title"><span class="lang-zh">方向与经历</span><span class="lang-en">Focus and background</span></h2><p><span class="lang-zh">以可执行证据连接安全、软件工程与自主系统。</span><span class="lang-en">Connecting security, software engineering, and autonomy through executable evidence.</span></p></div>
-      <div class="split">
-        <article class="panel"><h3><span class="lang-zh">教育经历</span><span class="lang-en">Education</span></h3><ol class="timeline"><li><strong><span class="lang-zh">合肥工业大学</span><span class="lang-en">Hefei University of Technology</span></strong><span><span class="lang-zh">电子信息专业，本科 · 2022—2026</span><span class="lang-en">Electronic Information Engineering, B.Eng. · 2022–2026</span></span></li></ol></article>
-        <article class="panel"><h3><span class="lang-zh">关注方向</span><span class="lang-en">Focus areas</span></h3><ul class="focus-list"><li><span class="lang-zh">机器人与车辆软件安全</span><span class="lang-en">Robotics and vehicle software security</span></li><li><span class="lang-zh">可信更新与软件供应链</span><span class="lang-en">Assured updates and software supply chains</span></li><li><span class="lang-zh">确定性测试、故障注入与可复现性</span><span class="lang-en">Deterministic testing, fault injection, and reproducibility</span></li><li><span class="lang-zh">自主系统运行时接口与失败关闭设计</span><span class="lang-en">Autonomy runtime interfaces and fail-closed design</span></li></ul></article>
-      </div>
-    </section>
-
-    <section class="shell" aria-labelledby="evidence-title">
-      <div class="section-head"><h2 id="evidence-title"><span class="lang-zh">用证据说明工程质量</span><span class="lang-en">Engineering quality, evidenced</span></h2><p><span class="lang-zh">不把“能运行”当作完成：每个项目都公开说明输入边界、失败模式、测试入口和非目标。</span><span class="lang-en">Running once is not the finish line: every project documents input boundaries, failure modes, test entry points, and non-goals.</span></p></div>
-      <div class="evidence">
-        <article><h3><span class="lang-zh">独立可构建</span><span class="lang-en">Independent builds</span></h3><p><span class="lang-zh">仓库没有隐藏的兄弟项目依赖，Python 与 C++ 均提供干净环境入口。</span><span class="lang-en">No hidden sibling dependency; Python and C++ projects expose clean-environment entry points.</span></p></article>
-        <article><h3><span class="lang-zh">失败路径优先</span><span class="lang-en">Failure paths first</span></h3><p><span class="lang-zh">超限、重放、陈旧、格式错误和证据不一致均有稳定结果。</span><span class="lang-en">Limits, replay, staleness, malformed input, and evidence mismatch produce stable outcomes.</span></p></article>
-        <article><h3><span class="lang-zh">诚实的边界</span><span class="lang-en">Honest boundaries</span></h3><p><span class="lang-zh">项目明确区分工程参考实现、仿真证据与认证级结论。</span><span class="lang-en">Projects distinguish engineering references and simulation evidence from certification claims.</span></p></article>
-      </div>
-    </section>
   </main>
-  <footer class="site-footer"><div class="footer-row shell"><span>© 2026 Zekang Liu / 刘泽康</span><span><span class="lang-zh">以可复现工程连接安全与自主系统。</span><span class="lang-en">Reproducible engineering for secure autonomy.</span></span></div></footer>
+  <footer class="site-footer"><div class="footer-row shell"><span>刘泽康 · Zekang Liu</span><a href="https://github.com/zekangl317-cyber">github.com/zekangl317-cyber</a></div></footer>
 </body>
 </html>
